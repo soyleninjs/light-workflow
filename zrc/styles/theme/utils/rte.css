@@ -1,0 +1,18 @@
+/* stylelint-disable value-keyword-case */
+.rte {
+}
+
+/* hover links */
+.text-gradient a:not(.button),
+.rte a:not(.button) {
+  background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background-size 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+
+  &:hover {
+    background-size: 0 1px;
+  }
+}

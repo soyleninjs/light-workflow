@@ -1,0 +1,17 @@
+@media (max-width: 1439px) {
+  :root {
+    --global-padding-x: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --global-max-width: 960px;
+  }
+}
+
+@media (max-width: 680px) {
+  :root {
+    --global-padding-x: 15px;
+  }
+}

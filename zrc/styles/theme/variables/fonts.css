@@ -1,0 +1,19 @@
+/* Declaración de variables globales
+
+  ** Nomenclatura para fuentes y colores:
+  * • primary
+  * • secondary
+  * • tertiary
+  * • quaternary
+  * • quinary
+
+*/
+
+:root {
+  --primary-font-regular: "Graphik-Regular";
+  --primary-font-medium: "Graphik-Medium";
+  --primary-font: var(--primary-font-regular);
+  --secondary-font-light: "Poppins-Light";
+  --secondary-font-regular: "Poppins-Regular";
+  --secondary-font-medium: "Poppins-Medium";
+}

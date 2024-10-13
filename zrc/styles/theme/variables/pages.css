@@ -1,0 +1,74 @@
+:root {
+  /* ///////////////////////////////////////////////
+  // -----           Default Page           ----- //
+  ///////////////////////////////////////////// */
+
+  --page-content-padding-bottom-desktop: 75px;
+  --page-content-padding-bottom-mobile: 40px;
+
+  /*  
+  ///  Títulos  ///  
+  */
+
+  --page-title-font: var(--primary-font-medium);
+  --page-title-font-weight: 500;
+  --page-title-font-size: responsive(25, 32);
+  --page-title-line-height: 42px;
+  --page-title-color: var(--black);
+  --page-title-padding-desktop: 67px 0;
+  --page-title-padding-mobile: 29px 0;
+
+  /*  
+  ///  Textos  ///  
+  */
+
+  --page-text-font: var(--primary-font-regular);
+  --page-text-font-size: responsive(15, 16);
+  --page-text-line-height: responsive(28, 30);
+  --page-text-color: var(--black);
+  --page-text-paragraphs-gap: 19px;
+
+  /*  
+  ///  Encabezados (h1, h2, h3...)  ///  
+  */
+
+  --page-heading-font: var(--primary-font-medium);
+
+  /*  
+  ///  Textos en negritas  ///  
+  */
+
+  --page-bold-text-font: var(--primary-font-medium);
+
+  /*  
+  ///  Enlaces  ///  
+  */
+
+  --page-link-hover-color: var(--primary-color);
+
+  /*  
+  ///  Botones (Continuar comprando)  ///  
+  */
+
+  --page-button-margin-top: 30px;
+
+  /* ///////////////////////////////////////////////
+  // -----           FAQ's Page           ----- //
+  ///////////////////////////////////////////// */
+
+  /*  
+  ///  Preguntas  ///  
+  */
+
+  --faqs-question-font: var(--page-text-font);
+  --faqs-question-font-size: calc(var(--page-text-font-size) + 2px);
+  --faqs-question-padding-desktop: 26px 0;
+  --faqs-question-padding-mobile: 16px 0;
+
+  /*  
+  ///  Respuestas  ///  
+  */
+
+  --faqs-answer-padding-bottom-desktop: 30px;
+  --faqs-answer-padding-bottom-mobile: 20px;
+}

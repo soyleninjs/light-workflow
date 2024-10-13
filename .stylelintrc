@@ -1,0 +1,248 @@
+{
+  "extends": [
+    "@shopify/stylelint-plugin"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "ignoreFiles": [
+    "node_modules",
+    "*.js",
+    "**/*.js",
+    "*.liquid",
+    "**/*.liquid",
+    "assets/*.css",
+    "zrc/styles/apps/**/*.css",
+    "zrc/styles/apps/*.css"
+  ],
+  "rules": {
+    "color-named": null,
+    "color-no-hex": null,
+    "comment-empty-line-before": null,
+    "comment-whitespace-inside": null,
+    "custom-property-empty-line-before": null,
+    "no-unknown-animations": null,
+    "selector-class-pattern": null,
+    "selector-id-pattern": null,
+    "font-family-name-quotes": null,
+    "selector-no-qualifying-type": [true, {
+      "ignore": ["class"]
+    }],
+    "declaration-property-value-no-unknown": null,
+    "function-no-unknown": null,
+    "indentation": 2,
+    "selector-max-combinators": 4,
+    "selector-max-class": 4,
+    "selector-max-specificity": "0,4,0",
+    "selector-max-type": 4,
+    "selector-max-attribute": 2,
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-selectors": true,
+    "selector-type-no-unknown": null,
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "font-range",
+          "font-path",
+          "line-height-range",
+          "letter-spacing-range"
+        ]
+      }
+    ],
+    "order/properties-order": [
+      [
+        "content",
+        "position",
+        {
+          "groupName": "Position",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "inset",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "transform",
+            "transform-origin",
+            "z-index"
+          ]
+        },
+        "visibility",
+        "opacity",
+        "display",
+        {
+          "groupName": "Display / visibility",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "flex-direction",
+            "flex-wrap",
+            "justify-content",
+            "justify-items",
+            "align-content",
+            "align-items",
+            "align-self",
+            "grid-template",
+            "grid-template-areas",
+            "grid-template-columns",
+            "grid-template-rows",
+            "grid-auto-columns",
+            "grid-auto-flow",
+            "grid-auto-rows",
+            "grid-column",
+            "grid-row",
+            "grid-gap",
+            "grid-row-gap",
+            "grid-column-gap",
+            "grid-area",
+            "flex",
+            "flex-basis",
+            "flex-grow",
+            "flex-shrink",
+            "flex-wrap",
+            "gap",
+            "row-gap",
+            "column-gap",
+            "order"
+          ]
+        },
+        {
+          "groupName": "Width",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "width",
+            "max-width",
+            "min-width"
+          ]
+        },
+        {
+          "groupName": "Height",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "height",
+            "max-height",
+            "min-height"
+          ]
+        },
+        "aspect-ratio",
+        {
+          "groupName": "Object",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "object-fit",
+            "object-position"
+          ]
+        },
+        {
+          "groupName": "Background",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "background",
+            "background-color",
+            "background-image",
+            "background-position",
+            "background-size",
+            "background-repeat",
+            "background-repeat-x",
+            "background-repeat-y"
+          ]
+        },
+        {
+          "groupName": "Padding",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left"
+          ]
+        },
+        {
+          "groupName": "Border",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "border",
+            "border-width",
+            "border-top",
+            "border-right",
+            "border-bottom",
+            "border-left",
+            "border-color",
+            "border-radius",
+            "border-top-left-radius",
+            "border-top-right-radius",
+            "border-bottom-right-radius",
+            "border-bottom-left-radius"
+          ]
+        },
+        "box-shadow",
+        {
+          "groupName": "Margin",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left"
+          ]
+        },
+        {
+          "groupName": "Overflow",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "overflow",
+            "overflow-x",
+            "overflow-y"
+          ]
+        },
+        "text-align",
+        "font-family",
+        "font-weight",
+        "font-size",
+        {
+          "groupName": "Typography",
+          "emptyLineBefore": "never",
+          "noEmptyLineBetween": true,
+          "order": "flexible",
+          "properties": [
+            "font-range",
+            "font-style",
+            "font-stretch",
+            "line-height",
+            "line-height-range",
+            "letter-spacing",
+            "letter-spacing-range",
+            "text-transform",
+            "white-space",
+            "color"
+          ]
+        }
+      ],
+      {
+        "unspecified": "bottom"
+      }
+    ]
+  }
+}

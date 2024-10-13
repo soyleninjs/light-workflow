@@ -1,0 +1,22 @@
+/* Declaración de variables globales
+
+  ** Nomenclatura para fuentes y colores:
+  * • primary
+  * • secondary
+  * • tertiary
+  * • quaternary
+  * • quinary
+
+*/
+
+:root {
+  /* Tienda */
+  --primary-color: #000000;
+  --secondary-color: #f5f5f5;
+
+  /* Precios */
+  --price-color: var(--primary-color);
+  --sale-price-color: #e01414;
+  --sale-regular-price-color: var(--primary-color);
+  --sold-out-color: var(--primary-color);
+}

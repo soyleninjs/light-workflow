@@ -1,0 +1,9 @@
+@media (max-width: 680px) {
+  .shopify-payment-button__button.shopify-payment-button__button--unbranded,
+  .button {
+    &,
+    & * {
+      transition: 0s;
+    }
+  }
+}

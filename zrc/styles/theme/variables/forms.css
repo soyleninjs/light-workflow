@@ -1,0 +1,35 @@
+:root {
+  /* ///////////////////////////////////////////////
+  //           Default Forms           //
+  /////////////////////////////////////////////*/
+
+  /*  
+  ///  Field  ///  
+  */
+
+  --form-field-margin-bottom: 13px;
+
+  /*  
+  ///  Label  ///  
+  */
+
+  --form-label-margin-bottom: 12px;
+  --form-label-font: var(--primary-font-regular);
+  --form-label-font-weight: 400;
+  --form-label-font-size: responsive(14, 15);
+  --form-label-color: var(--black);
+
+  /*  
+  ///  Input  ///  
+  */
+
+  --form-input-padding: 0 20px;
+  --form-textarea-padding: 15px 20px;
+  --form-input-font: var(--primary-font-regular);
+  --form-input-font-weight: 400;
+  --form-input-font-size: responsive(14, 15);
+  --form-input-height: 41px;
+  --form-input-background-color: var(--white);
+  --form-input-color: var(--black);
+  --form-input-border-color: rgb(234, 235, 239);
+}

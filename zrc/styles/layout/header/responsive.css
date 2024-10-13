@@ -1,0 +1,11 @@
+@media (width >= 1000px) {
+  .header {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 100px) {
+  .header {
+    color: greenyellow;
+  }
+}

@@ -1,0 +1,25 @@
+:root {
+  /*  
+  ///  Pestañas  ///  
+  */
+
+  --account-tab-font: var(--primary-font-regular);
+  --account-tab-font-size: responsive(14, 15);
+  --account-tab-font-weight: 400;
+  --account-tab-background-color: #f5f5f5;
+  --account-tab-color: var(--black);
+  --account-tab-hover-color: var(--black);
+  --account-active-tab-color: var(--black);
+
+  /*  
+  ///  Encabezados de tablas  ///  
+  */
+
+  --account-table-headings-font: var(--primary-font-medium);
+
+  /*  
+  ///  Subtítulos  ///  
+  */
+
+  --account-subtitle-font: var(--primary-font-medium);
+}

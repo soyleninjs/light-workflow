@@ -1,0 +1,8 @@
+:root {
+  /* Padding */
+  --global-padding-x: 63px;
+  --global-max-width: 1314px;
+
+  /* z-indexes */
+  --z-index-menu: 1003;
+}

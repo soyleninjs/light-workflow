@@ -1,0 +1,25 @@
+/* ///////////////////////////////////////////////
+//          Styles with global effect          //
+/////////////////////////////////////////////// */
+
+body {
+  font-family: var(--primary-font), system-ui;
+  font-size: 16px;
+  color: var(--page-text-color);
+
+  &.modal-is-open,
+  &.disable-scroll {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}

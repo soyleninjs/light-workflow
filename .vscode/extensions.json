@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "tamasfe.even-better-toml",
+    "Shopify.theme-check-vscode",
+    "sissel.shopify-liquid",
+  ]
+}

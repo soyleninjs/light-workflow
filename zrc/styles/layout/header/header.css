@@ -1,0 +1,9 @@
+@media (width >= 1000px) {
+  .header {
+    color: greenyellow;
+  }
+}
+
+.header {
+  color: red;
+}
