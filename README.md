@@ -8,7 +8,7 @@
 ## Funcionamiento
 
 - Esbuild se encarga de hacer los bundles, tanto para css como js
-- Chokidar es el watcher que se encarga de monitorear los archivos, cada que pase un cambio, hace un rebuild de ESbuildJS
+- Chokidar es el watcher que se encarga de monitorear los archivos, cada que pase un cambio, hace un rebuild de EsbuildJS
 
 ## Como usar
 
@@ -33,7 +33,7 @@ Se integro el uso de <a href="https://stylelint.io/">Stylelint</a>, esto nos ayu
 
 El formateo de codigo se hace cuando se guarda el archivo gracias a la extension de <a href="https://prettier.io/">Prettier</a> (configuracion ya preestablecida en .vscode/settings.json).
 
-## Standard (Javascript)
+## Standard JS (Javascript)
 
 Cuenta con un linter para JS llamado <a href="https://standardjs.com/readme-esla">StandardJS</a>, este nos ayudara a tener un conjunto de reglas modernas para el formatedo de codigo javascript.
 
